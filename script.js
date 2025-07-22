@@ -5,7 +5,7 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
     cartCount++;
     document.getElementById('cart-count').textContent = cartCount;
 
-    // Show temporary confirmation
+    
     button.textContent = 'Added!';
     setTimeout(() => {
       button.textContent = 'Add to Cart';
